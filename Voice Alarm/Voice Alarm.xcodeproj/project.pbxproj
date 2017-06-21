@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18E73AD1EFAE32D00739FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18E73AC1EFAE32D00739FCD /* AppDelegate.swift */; };
+		C18E73AF1EFAE32D00739FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18E73AE1EFAE32D00739FCD /* ViewController.swift */; };
+		C18E73B21EFAE32D00739FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18E73B01EFAE32D00739FCD /* Main.storyboard */; };
+		C18E73B51EFAE32D00739FCD /* Voice_Alarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C18E73B31EFAE32D00739FCD /* Voice_Alarm.xcdatamodeld */; };
+		C18E73B71EFAE32D00739FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18E73B61EFAE32D00739FCD /* Assets.xcassets */; };
+		C18E73BA1EFAE32D00739FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18E73B81EFAE32D00739FCD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C18E73A91EFAE32D00739FCD /* Voice Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18E73AC1EFAE32D00739FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C18E73AE1EFAE32D00739FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C18E73B11EFAE32D00739FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C18E73B41EFAE32D00739FCD /* Voice_Alarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voice_Alarm.xcdatamodel; sourceTree = "<group>"; };
+		C18E73B61EFAE32D00739FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18E73B91EFAE32D00739FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C18E73BB1EFAE32D00739FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18E73A61EFAE32D00739FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C18E73A01EFAE32D00739FCD = {
+			isa = PBXGroup;
+			children = (
+				C18E73AB1EFAE32D00739FCD /* Voice Alarm */,
+				C18E73AA1EFAE32D00739FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C18E73AA1EFAE32D00739FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18E73A91EFAE32D00739FCD /* Voice Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18E73AB1EFAE32D00739FCD /* Voice Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				C18E73AC1EFAE32D00739FCD /* AppDelegate.swift */,
+				C18E73AE1EFAE32D00739FCD /* ViewController.swift */,
+				C18E73B01EFAE32D00739FCD /* Main.storyboard */,
+				C18E73B61EFAE32D00739FCD /* Assets.xcassets */,
+				C18E73B81EFAE32D00739FCD /* LaunchScreen.storyboard */,
+				C18E73BB1EFAE32D00739FCD /* Info.plist */,
+				C18E73B31EFAE32D00739FCD /* Voice_Alarm.xcdatamodeld */,
+			);
+			path = "Voice Alarm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18E73A81EFAE32D00739FCD /* Voice Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18E73BE1EFAE32D00739FCD /* Build configuration list for PBXNativeTarget "Voice Alarm" */;
+			buildPhases = (
+				C18E73A51EFAE32D00739FCD /* Sources */,
+				C18E73A61EFAE32D00739FCD /* Frameworks */,
+				C18E73A71EFAE32D00739FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Alarm";
+			productName = "Voice Alarm";
+			productReference = C18E73A91EFAE32D00739FCD /* Voice Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18E73A11EFAE32D00739FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Harsha Goli";
+				TargetAttributes = {
+					C18E73A81EFAE32D00739FCD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JMP9D48WN6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C18E73A41EFAE32D00739FCD /* Build configuration list for PBXProject "Voice Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C18E73A01EFAE32D00739FCD;
+			productRefGroup = C18E73AA1EFAE32D00739FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18E73A81EFAE32D00739FCD /* Voice Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18E73A71EFAE32D00739FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18E73BA1EFAE32D00739FCD /* LaunchScreen.storyboard in Resources */,
+				C18E73B71EFAE32D00739FCD /* Assets.xcassets in Resources */,
+				C18E73B21EFAE32D00739FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18E73A51EFAE32D00739FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18E73B51EFAE32D00739FCD /* Voice_Alarm.xcdatamodeld in Sources */,
+				C18E73AF1EFAE32D00739FCD /* ViewController.swift in Sources */,
+				C18E73AD1EFAE32D00739FCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C18E73B01EFAE32D00739FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18E73B11EFAE32D00739FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C18E73B81EFAE32D00739FCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18E73B91EFAE32D00739FCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18E73BC1EFAE32D00739FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18E73BD1EFAE32D00739FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18E73BF1EFAE32D00739FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMP9D48WN6;
+				INFOPLIST_FILE = "Voice Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Harsha.Voice-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C18E73C01EFAE32D00739FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMP9D48WN6;
+				INFOPLIST_FILE = "Voice Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Harsha.Voice-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18E73A41EFAE32D00739FCD /* Build configuration list for PBXProject "Voice Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18E73BC1EFAE32D00739FCD /* Debug */,
+				C18E73BD1EFAE32D00739FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18E73BE1EFAE32D00739FCD /* Build configuration list for PBXNativeTarget "Voice Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18E73BF1EFAE32D00739FCD /* Debug */,
+				C18E73C01EFAE32D00739FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C18E73B31EFAE32D00739FCD /* Voice_Alarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C18E73B41EFAE32D00739FCD /* Voice_Alarm.xcdatamodel */,
+			);
+			currentVersion = C18E73B41EFAE32D00739FCD /* Voice_Alarm.xcdatamodel */;
+			path = Voice_Alarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C18E73A11EFAE32D00739FCD /* Project object */;
+}
